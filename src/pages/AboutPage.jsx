@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <div className="container mx-auto py-16 bg-gray-50">
       {/* Hero Image with Overlay Text */}
-      <div className="relative w-full h-96">
+      <div className="relative w-full h-96 mb-3 ">
         <img src={hotel} alt="Badrinath" className="w-full h-full object-cover filter brightness-50" />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
           <h1 className="text-white text-3xl lg:text-5xl font-extrabold tracking-wider shadow-lg" data-aos="fade-up">
@@ -23,7 +23,7 @@ const AboutPage = () => {
       </div>
 
       {/* Introduction Section */}
-      <div className="text-center mb-16 max-w-4xl mx-auto px-4" data-aos="fade-up">
+      <div className="text-center  mb-16 max-w-4xl mx-auto px-4" data-aos="fade-up">
         <h1 className="text-4xl font-extrabold text-gray-800 mb-6">
           Everything Right Where You Need It
         </h1>
